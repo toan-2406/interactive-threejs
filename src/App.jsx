@@ -1,11 +1,10 @@
-import React from 'react';
-import ThreeScene from './components/ThreeScene';
+import ThreeScene from "./components/ThreeScence";
+import ThreeScene2 from "./components/ThreeScene2";
 
 const App = () => {
   return (
-    <div>
-      <h1>Trang web tương tác 3D</h1>
-      <ThreeScene />
+    <div style={{display:'flex', alignItems:'center',justifyContent:'center', height: '100vh'}}>
+    <ThreeScene2/> 
     </div>
   );
 };
